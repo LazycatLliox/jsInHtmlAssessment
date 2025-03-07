@@ -1,4 +1,4 @@
 Explain the difference between calling a function from within 
 a script block and calling a function from a button's onclick 
 attribute. Write a short answer.
-
+calling the function in the script block you just refrance it and it happens automatically. While using onClick allows you to do it through clicking a opject.

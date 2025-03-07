@@ -6,7 +6,11 @@
 <body>
     <!-- Create an HTML element with an id of "display" and use 
      JavaScript to change its text content to "Changed by JavaScript!". -->
+    <p id="display">hi</p>
 
-
+    <script>
+        var para = document.getElementById("display");
+        para.innerHTML = "Change by JavaScript";
+    </script>
 </body>
 </html>

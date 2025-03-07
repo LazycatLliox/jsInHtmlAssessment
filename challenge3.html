@@ -7,14 +7,15 @@
     <!-- Create multiple <p> tags and use JavaScript to change 
         the text color of all <p> tags to red. -->
 
-    <p onclick="this">Paragraph 1</p>
+    <p onclick="changeColor(this)">Paragraph 1</p>
     <p>Paragraph 2</p>
     <p>Paragraph 3</p>
     
+    <button>red</button>
     <script>
-        function changeColor(){
+        function changeColor(this){
             var para = document.getElementsByTagName("p");
-            para.style.color = "red";
+            Element.style.color = "red";
         }
     </script>
 </body>
